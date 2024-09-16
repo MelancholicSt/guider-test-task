@@ -12,9 +12,11 @@
 - добавлен индекс на адрес
 ### Категории:
 - добавлен индекс на имя
+
+### Архитектура
 В проекте использована многослойная архитектура раздёленная на: service layer, repository layer, controller layer. 
 
-Стэк:
+### Стэк:
 ASP.NET Core 8, MySQL 8, .Net Core 8
 
 ## Зависимости:
@@ -30,3 +32,6 @@ ASP.NET Core 8, MySQL 8, .Net Core 8
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 ```
+
+### Известные проблемы в проекте
+В связи с добавлением асинхронности возникли трудности с выполнением операций на уровне DAL (Repository Layer + ContextLayer)
