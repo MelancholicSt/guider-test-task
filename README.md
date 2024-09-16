@@ -14,6 +14,7 @@
 
 Стэк:
 ASP.NET Core 8, MySQL 8, .Net Core 8
+
 Зависимости:
 ```xml
  <ItemGroup>
