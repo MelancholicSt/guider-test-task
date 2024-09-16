@@ -15,7 +15,7 @@
 Стэк:
 ASP.NET Core 8, MySQL 8, .Net Core 8
 
-Зависимости:
+## Зависимости:
 ```xml
  <ItemGroup>
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
